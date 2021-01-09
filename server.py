@@ -1,7 +1,7 @@
 import socket
 
 HOST = '162.216.17.32'
-PORT = 89322
+PORT = 42356
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((HOST, PORT))
